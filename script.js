@@ -32,7 +32,7 @@ const checkWin = () => {
       music.play();
       document
         .querySelector(".imgbox")
-        .getElementsByTagName("img")[0].style.width = "200px";
+        .getElementsByTagName("img")[0].style.width = "264px";
       document.querySelector(
         ".line"
       ).style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`;
